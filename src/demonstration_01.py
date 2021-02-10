@@ -10,4 +10,12 @@ Examples:
 """
 def addition(a, b):
     # Your code here
+    return (a + b)
+
+some_sum = addition(10, 2)
+print(some_sum)
+print(addition(2, 7))
+
+
+
 

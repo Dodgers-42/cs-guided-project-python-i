@@ -17,4 +17,14 @@ Examples:
 """
 def XO(txt):
     # Your code here
+    lower_txt = txt.lower()
+    num_x = lower_txt('x')
+    num_o = lower_txt('o')
+    return num_x == num_o
 
+print('ooXxm'.lower())
+
+print(XO('ooxx'))
+print(XO('xooxx'))
+print(XO('ooxXm'))
+print(XO('zpzpzpp'))

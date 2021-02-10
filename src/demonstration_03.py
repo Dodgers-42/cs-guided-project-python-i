@@ -10,4 +10,20 @@ Examples:
 """
 def string_int(txt):
     # Your code here
+    num = int(txt)
+    return num
+
+def num_to_str(num):
+    return str(num)
+
+potential_num = string_int("6")
+
+print("6")
+print(type(num_to_str(6)))
+print(type(potential_num))
+
+
+
+
+
 
